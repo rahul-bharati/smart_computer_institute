@@ -1,0 +1,44 @@
+html
+{
+    font-size: 62.5% !important;
+
+    @media only screen and (max-width: 32.6em)
+    {
+        font-size: 56.2% !important;
+    }
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+p,span,a
+{
+    font-family: 'Roboto', sans-serif;
+    @include fluid-type(14px, 18px);
+    font-weight: 300;    
+}
+h1
+{
+    @include fluid-type(22px, 38px);
+}
+h2
+{
+    @include fluid-type(18px, 32px);
+}
+.heading-primary
+{
+    color: #4f4e4a;
+    grid-column: 1 / -1;
+}
+.heading-secondary
+{
+    color: #3d3d3d;
+    font-weight: 700;
+}
+.truncate
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

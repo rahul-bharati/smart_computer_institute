@@ -1,0 +1,21 @@
+.footer
+{
+    grid-column: 1 / -1;
+    height: 20rem;
+    background-color: #3e3e3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 2rem;
+
+    .copyright-text,
+    .designer-text
+    {
+        margin-bottom: 0;
+        display: block;
+        color: #fefefe;
+        text-align: center;
+        @include fluid-type(12px, 16px);
+    }
+}

@@ -6,6 +6,11 @@
         color: $color-text;
     }
 }
+
+.services {
+    background-image: url("../img/services.jpg") !important;
+}
+
 .courses {
     grid-column: 1 / -1;
     display: grid;
@@ -17,10 +22,6 @@
         background-image: url("../img/adults-analysis-brainstorming-1661004.jpeg");
         background-size: cover;
         background-attachment: fixed;
-
-        &.services {
-            background-image: url("../img/services.jpg");
-        }
 
         &--img {
             height: 100%;
